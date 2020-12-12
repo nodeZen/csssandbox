@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Box Model/Margin and Padding</title>
+    <style>
+        /* CSS reset */
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .box{
+            background-color: lightslategray;
+            border: 3px black solid;
+            width: 600px;
+            
+            /* Padding on all sides */
+            padding: 20px;
+            
+            
+            /* Padding on each side */
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            /* padding:top,right,botom,left */
+            padding: 10px,20px,10px,20px;
+
+            /* Padding:top/bottom,right/left */
+            padding: 10px,20px;
+
+            /* Margin on all sides */
+            margin: 20px;
+
+            /* Margin on each side */
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            /* margin:top,right,botom,left */
+            margin: 10px,20px,10px,20px;
+
+            /* margin:top/bottom,right/left */
+            margin: 10px,20px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>Box One</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda sed quia quas tempora delectus in consequuntur
+            est pariatur obcaecati vitae!
+        </p>
+    </div>
+    <div class="box">
+        <h3>Box two</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda sed quia quas tempora delectus in consequuntur
+            est pariatur obcaecati vitae!
+        </p>
+    </div>
+</body>
+</html>

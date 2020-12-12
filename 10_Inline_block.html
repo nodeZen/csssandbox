@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Block and Styling</title>
+
+    <style>
+            li{
+                /* makes the display inline */
+                display: inline;
+                padding-right: 20px;
+                margin-left: 0;
+            }
+
+            img{
+                margin: auto;
+                /* Makes it a block elemnt. margin:auto property works only on block elements */
+                display: block;
+                max-width: 20%;
+            }
+
+            .box{
+
+                background-color: lightblue;
+                /* Makes an elemnt inlone block. used typically when [paragraphs are present in out divs */
+                display: inline-block;
+                padding-bottom: 20px;
+                margin-bottom: 15px;
+                width: 30%;
+                margin-left: 45px;
+                box-sizing: border-box;
+
+            }
+
+            .box p,h3{
+                padding-left: 10px;
+            }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Fashion</a></li>
+    </ul>
+
+    <img src="./images/icon.png" alt="My Image">
+
+    <div class="box">
+        <h3>HEading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nesciunt itaque commodi adipisci quisquam, vero
+            neque enim? Mollitia, quod impedit.</p>
+    </div>
+
+    <div class="box">
+        <h3>HEading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nesciunt itaque commodi adipisci quisquam, vero
+            neque enim? Mollitia, quod impedit.</p>
+    </div>
+
+    <div class="box">
+        <h3>HEading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nesciunt itaque commodi adipisci quisquam, vero
+            neque enim? Mollitia, quod impedit.</p>
+    </div>
+
+</body>
+</html>

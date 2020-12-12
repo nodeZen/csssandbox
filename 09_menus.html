@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>menu Styling</title>
+
+    <style>
+    
+        .nav-bar{            
+            background: #397499;
+            margin: 0;
+            padding: 0;
+            border-radius: 10px;
+            /* Float removes the background so Overflow restores it back */
+            overflow: auto;
+        }
+
+        .nav-bar li{
+            list-style: none;            
+            float: left;                        
+        }
+        
+        .nav-bar li a{     
+            display: block;       
+            text-decoration: none;  
+            padding: 15px 20px;     
+            color: white;     
+        }
+
+        .nav-bar li a:hover{            
+            background: #283842;            
+            color: lightgrey;
+        }
+
+        .side-menu{
+            list-style: none;     
+            /* background: #939ba0; */
+            width: 100px;   
+            border: 2px solid lightgray;
+            border-radius: 10px;
+            padding: 20px;
+
+        }
+
+        .side-menu li:last-child{
+            border: none;
+        }
+
+        .side-menu li{            
+            border-bottom: 1px dotted lightgray;                           
+            
+        }
+
+        .side-menu li a{
+            text-decoration: none;      
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        .side-menu li a:hover{
+            color: coral;
+        }
+    </style>
+
+</head>
+<body>
+    <nav>
+            <ul class="nav-bar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>                
+            </ul>
+    </nav>
+
+    <section>
+        <ul class="side-menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>                
+        </ul>
+    </section>
+</body>
+</html>
